@@ -29,6 +29,12 @@ Other options can be found in the Foxx CLI repository at https://github.com/aran
 Update the `src/manifest.json` file to your needs
 
 
+## Develop your service
+
+* Edit your lifecycle scripts in `src/manifest.json`
+* Edit your service code in `src/`
+* ...
+
 ## Deploy your service to ArangoDB
 
 ```bash
