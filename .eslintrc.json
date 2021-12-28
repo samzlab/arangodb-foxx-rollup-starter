@@ -1,0 +1,24 @@
+{
+	"root": true,
+	"env": {
+		"node": true
+	},
+	"parserOptions": { "sourceType": "module", "ecmaVersion": 2020 },
+	"ignorePatterns": [
+		"/node_modules/",
+		"/dist/"
+	],
+	"overrides": [
+		{
+			"files": [
+				"src/*.js"
+			],
+			"parserOptions": {
+				"createDefaultProgram": true
+			},
+			"extends": [
+				"eslint:recommended"
+			]
+		}
+	]
+}
